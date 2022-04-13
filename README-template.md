@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vigengareyan/interactive-rating-component-1)
-- Live Site URL: [Add live site URL here](https://interactive-rating-component-1.vigengareyan.repl.co/)
+- Solution URL: [My solution URL here](https://github.com/vigengareyan/interactive-rating-component-1)
+- Live Site URL: [My live site URL here](https://interactive-rating-component-1.vigengareyan.repl.co/)
 
 ## My process
 
