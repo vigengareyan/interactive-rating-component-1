@@ -1,0 +1,193 @@
+* {
+  /*border: 1px solid black;*/
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  height: 800px;
+}
+
+body {
+  display: flex;
+  direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+
+
+.attribution {
+  color: white;
+}
+
+/* The proper color was not given in style guide, thus we try to find it out experimentally */
+.container {
+  margin-top: -50px;
+  width: 350px;
+  padding: 20px;
+  background-color: hsl(208, 29%, 10%);
+  border-radius: 20px;
+}
+
+
+
+.star {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.container h1,.container h2 {
+  display: flex;
+  text-align: left;
+}
+
+.container h1 {
+  margin-top: 10px;
+  color: white;
+}
+
+.container h2 {
+  display: flex;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  height: 60px;
+  color: hsl(217, 12%, 63%);
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+}
+
+button {
+  border-radius: 50%;
+  width: 60px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+a button {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 17px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+a button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+/* The interchangable 2 pages: https://jsfiddle.net/w2eox90g/# 
+Code Begins Here*/
+.body {
+  margin: 0em;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: -100vw;
+  overflow-y: auto;
+  z-index: 0;
+  background-color: hsl(216, 12%, 8%);
+}
+
+
+.page:target {
+  left: 0vw;
+  z-index: 1;
+}
+
+/* The interchangable 2 pages: https://jsfiddle.net/w2eox90g/# 
+Code Ends Here*/
+
+.container-2 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thank-you {
+  border-radius: 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  direction: column;
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 290px;
+  height: 320px;
+  flex-wrap: wrap;
+  background-color: hsl(208, 29%, 10%);
+  padding: 20px;
+}
+
+.thank-you h1 {
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px;
+  padding-bottom: 4px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+}
+
+.rating {
+  width: 12px;
+  height: 12px;
+}
+.thank-you h2 {
+  margin-top: 25px;
+  color: white;
+}
+
+.thank-you h3 {
+  font-size: 12.1px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+}
+
+img[src="images/illustration-thank-you.svg"] {
+  width: 160px;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+button[class="b"] {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+}
+
+button[class="b active"] {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+button[class="b"]:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+img[src="images/icon-star.svg"] {
+  border-radius: 50%;
+  padding: 13px;
+  width: 19px;
+  background-color: hsl(213, 19%, 18%);
+}
+

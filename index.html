@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section>
+  <main>
+  
+  
+  <!-- The interchangable 2 pages: https://jsfiddle.net/w2eox90g/# 
+Code Begins Here-->
+  <!-- Rating state start -->
+    <div class="container">
+      <div class="star">
+        <img src="images/icon-star.svg" alt="star">
+      </div>
+    <h1>How did we do?</h1>
+
+  <h2>Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</h2>
+      <div class="buttons">
+        <button class="b">1</button>
+        <button class="b">2</button>
+        <button class="b">3</button>
+        <button class="b">4</button>
+        <button class="b active">5</button>
+      </div>
+      
+
+    <!-- Rating state end -->
+      <a id="submit"><button>Submit</button></a>
+    </div>
+    
+    
+    <div class="container-2">
+  <div class="page" id="one">
+    <!-- Thank you state start -->
+    <div class="thank-you">
+  <img src="images/illustration-thank-you.svg" alt="thank-you">
+  <h1>You selected <!-- Add rating here --><div class="rating"></div> out of 5</h1>
+
+  <h2>Thank you!</h2>
+
+  <h3>We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</h3>
+</div>
+  <!-- Thank you state end -->
+    <!--<a href="#">Back</a>-->
+  </div>
+  <!-- The interchangable 2 pages: https://jsfiddle.net/w2eox90g/# </body-2>
+Code Ends Here-->
+  </div>
+  
+  
+  </main>
+  
+
+  
+  <footer>
+  
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/vigengareyan">Vigen</a>.
+    </div>
+    </footer>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
